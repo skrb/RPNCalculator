@@ -1,0 +1,63 @@
+.mainFxmlClass {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #b2b2b2 0%, white 10%, #666666 20%, black 40%, #808080 100%);
+}
+
+.numberBotton {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-focus-traversable: false;
+}
+
+.enterBotton {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-focus-traversable: false;
+    -fx-background-color: -fx-shadow-highlight-color, cornflowerblue, -fx-inner-border, linear-gradient(to bottom, lightblue, cornflowerblue);
+}
+
+.enterBotton:hover {
+    -fx-background-color: -fx-shadow-highlight-color, cornflowerblue, -fx-inner-border, linear-gradient(to bottom, lavender, #8bb0f2);
+}
+
+.enterBotton:pressed {
+    -fx-background-color: -fx-shadow-highlight-color, cornflowerblue, -fx-inner-border, linear-gradient(to bottom, #9acfe0, #4f88eb);
+}
+
+.clearBotton {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-focus-traversable: false;
+    -fx-background-color: -fx-shadow-highlight-color, gold, -fx-inner-border, linear-gradient(to bottom, lemonchiffon, gold);
+}
+
+.clearBotton:hover {
+    -fx-background-color: -fx-shadow-highlight-color, gold, -fx-inner-border, linear-gradient(to bottom, #fffbd7, #ffe700);
+}
+
+.clearBotton:pressed {
+    -fx-background-color: -fx-shadow-highlight-color, gold, -fx-inner-border, linear-gradient(to bottom, #fff8b8, #ffb700);
+}
+
+.operatorBotton {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-focus-traversable: false;
+    -fx-background-color: -fx-shadow-highlight-color, cornflowerblue, -fx-inner-border, linear-gradient(to bottom, lightblue, cornflowerblue);
+}
+
+.operatorBotton:hover {
+    -fx-background-color: -fx-shadow-highlight-color, cornflowerblue, -fx-inner-border, linear-gradient(to bottom, lavender, #8bb0f2);
+}
+
+.operatorBotton:pressed {
+    -fx-background-color: -fx-shadow-highlight-color, cornflowerblue, -fx-inner-border, linear-gradient(to bottom, #9acfe0, #4f88eb);
+}
+
+.label {
+    -fx-font-family: "monospace";
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-effect: innershadow(one-pass-box, black, 1, 1, 1, 1);
+    -fx-padding: 2 8 2 8;
+}
